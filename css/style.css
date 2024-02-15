@@ -9,7 +9,7 @@
   width: 1200px;
   height: 782px;
   margin: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .left-head-page{
   display: flex;
@@ -18,7 +18,7 @@
   justify-content: center;
   width: 50%;
   height: 100%;
-  border:1px solid green;
+  /* border:1px solid green; */
   background-image: url(../img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +53,9 @@ color: #fff;
 .button-link{
   text-decoration: none;
 }
+.top-blogs-button:hover{
+  opacity: 0.8;
+}
 .star-icon{
 display: inline-block;
 margin-right: 12px;
@@ -67,7 +70,7 @@ background-size:cover;
 .right-main-page{
 width: 50%;
 height: 100%;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 }
 .container{
   width: 492px;
@@ -75,7 +78,7 @@ border: 1px solid blue;
   margin: auto;
   padding-top: 60px;
 
-  border:1px solid yellow;
+  /* border:1px solid yellow; */
 }
 .right-main-title{
 font-size: 24px;
@@ -115,6 +118,13 @@ font-family: "Bebas Neue", sans-serif;
 font-weight: 400;
 color:#222222;
 
+}
+.title-ad:hover{
+  color:#1E90FF;
+
+}
+.title-ad:active{
+  opacity: 0.8;
 }
 .title-time-view{
   padding-top: 16px;
@@ -179,4 +189,15 @@ padding: 12px;
 border:none;
 margin-top: 20px;
 
+}
+.btn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.btn:active{
+  opacity: 0.8;
+}
+.links{
+
+  text-decoration: none;
 }
